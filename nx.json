@@ -17,6 +17,12 @@
     "my-app-e2e": {
       "tags": [],
       "implicitDependencies": ["my-app"]
+    },
+    "hello-world": {
+      "tags": []
+    },
+    "core": {
+      "tags": []
     }
   }
 }
