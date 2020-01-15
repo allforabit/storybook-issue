@@ -1,6 +1,6 @@
 import React from 'react';
 import './core.css';
-// import { helloWorld } from '@storybook-issue/hello-world';
+import { helloWorld } from '@storybook-issue/hello-world';
 import { IonApp, IonContent, IonPage } from '@ionic/react';
 
 /* eslint-disable-next-line */
@@ -11,7 +11,7 @@ export const Core = (props: CoreProps) => {
     <IonApp>
       <IonPage id="main">
         Hello world!!!
-        {/* <IonContent>{helloWorld()}</IonContent> */}
+        <IonContent>{helloWorld()}</IonContent>
       </IonPage>
     </IonApp>
   );
